@@ -1,0 +1,16 @@
+#-> examples from the language description that need special care <-#
+def f():
+var
+    type char*:x;
+    type string y[10];
+    type char:z;
+    type int*:p;
+begin
+    y = "foobar";
+    x = &y[5];
+    z = *(x - 5);
+    *p = 7;
+    if TRUE: z = 'a'; else z = 'b';
+    call g(1, 2);
+    z = g(1, 2);
+end

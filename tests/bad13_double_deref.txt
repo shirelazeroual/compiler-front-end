@@ -1,0 +1,7 @@
+def f():
+var
+    type int*:y;
+    type int:z;
+begin
+    z = **y;
+end

@@ -1,0 +1,5 @@
+def f():
+begin
+    #-> this comment
+    is never closed
+end

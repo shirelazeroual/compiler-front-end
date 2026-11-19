@@ -1,0 +1,17 @@
+def strings():
+var
+    type string:a[30],b[100]:"moshe",s[11];
+    type char:c;
+    type int:i:0;
+    type bool:m:TRUE,ns:FALSE;
+    type char*:p;
+begin
+    c = 'e';
+    a[4+2] = 'g';
+    b = a;
+    a = "test";
+    i = |b|;
+    p = &a[5];
+    c = *(p - 5);
+    p = null;
+end

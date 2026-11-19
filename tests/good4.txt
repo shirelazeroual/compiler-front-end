@@ -1,0 +1,29 @@
+#-> all the kinds of statements <-#
+def stmts(): returns int
+begin
+    if a+b > 4 and (num*b <= sum or not m == n):
+    begin j = 3; end
+    else:
+    begin
+        k = 4;
+        while TRUE:
+        begin l = 2; k = l + j; end
+    end
+    if (TRUE): i = 5;
+    if a: x = 1;
+    elif b: x = 2;
+    else: x = 3;
+    for (i=0; i<10 and a!=sum; i=i+2):
+    begin a = a + i; end
+    do:
+    var
+        type int:a:5;
+    begin
+        a = a + i;
+        i = i + 1;
+    end
+    while i <= 10;
+    call foo(i, j);
+    x = -5 + 0x01F * 3.14;
+    return 0;
+end

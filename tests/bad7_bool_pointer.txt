@@ -1,0 +1,5 @@
+def f():
+var
+    type bool*:x;
+begin
+end

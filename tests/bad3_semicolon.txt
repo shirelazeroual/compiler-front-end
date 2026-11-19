@@ -1,0 +1,1 @@
+def foo(par1 int:i;): begin end

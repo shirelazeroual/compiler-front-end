@@ -1,0 +1,4 @@
+def f():
+begin
+    x = &(1+3);
+end
